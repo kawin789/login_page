@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user authentication portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="register fade-in-up">
+        <h1> User Registeration</h1>
+        <form id="regform">
+            <label for="username">Fullname </label>
+            <input type="text" id="name" name="name" required>
+            <label for="password">Email id:</label>
+            <input type="email" id="mail" name="mail" required>
+            <label for="password">Password (minimum 6 characters):</label>
+            <input type="password" id="password" name="password" required>
+            <label for="password">Confirm Password (should match the password):</label>
+            <input type="password" id="conpassword" name="conpassword" required>
+
+            <button type="submit">Register</button>
+        </form>
+        
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
